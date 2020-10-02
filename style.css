@@ -11,12 +11,15 @@ body{
 #calculator{
 	width: 320px;
 	height: 520px;
-	background-color: #f8ebb8;
+	background-color: #b8edf8;
 	margin: 0 auto;
 	top: 20px;
 	position: relative;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	aling-items: center;
+	display: flex;
+
 }
 #result{
 	height: 120px;
@@ -102,7 +105,7 @@ body{
 	border-radius: 50%;
 	border-width: 0;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 20px;
 }
 .number, .empty{
 	background-color: #f1eef0;
